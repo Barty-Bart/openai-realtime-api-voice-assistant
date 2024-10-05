@@ -1,0 +1,23 @@
+{
+  "name": "openai-realtime-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fastify/formbody": "^8.0.0",
+    "@fastify/websocket": "^11.0.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.0"
+  }
+}

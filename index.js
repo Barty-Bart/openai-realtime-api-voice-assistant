@@ -26,7 +26,7 @@ fastify.register(fastifyWs);
 const SYSTEM_MESSAGE = 'You are an AI receptionist for Barts Automotive. Your job is to politely engage with the client and obtain their name, availability, and service/work required. Ask one question at a time. Do not ask for other contact information, and do not check availability, assume we are free. Ensure the conversation remains friendly and professional, and guide the user to provide these details naturally. If necessary, ask follow-up questions to gather the required information.';
 const VOICE = 'alloy';
 const PORT = process.env.PORT || 5050;
-const WEBHOOK_URL = "https://hook.us1.make.com/ma6nbmhb0z6ab2xs5jyi9g8kweoohr7o";
+const WEBHOOK_URL = "<input your webhook URL here>";
 
 // Session management
 const sessions = new Map();

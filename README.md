@@ -37,8 +37,15 @@ This project implements an AI-powered inbound call agent for Bart's Automotive, 
    ```
    OPENAI_API_KEY=your_openai_api_key
    ```
+   Replace `your_openai_api_key` with your actual OpenAI API key.
 
-4. Start the server:
+4. Update the webhook URL:
+   Open the `index.js` file and locate the `WEBHOOK_URL` constant. Replace the existing URL with your own webhook URL:
+   ```javascript
+   const WEBHOOK_URL = "https://your-webhook-url.com";
+   ```
+
+5. Start the server:
    ```
    npm start
    ```

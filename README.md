@@ -2,6 +2,10 @@
 
 This project implements an AI-powered inbound call agent for Bart's Automotive, a fictional automotive business. It uses OpenAI's new realtime API and integrates with Twilio to handle incoming phone calls.
 
+## Video Instructions
+
+https://youtu.be/AZ0WziqO_QA?si=HORqrwjrbKnsuRZY
+
 ## Features
 
 - Handles incoming calls using Twilio's voice services
